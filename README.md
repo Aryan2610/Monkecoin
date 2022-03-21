@@ -24,9 +24,7 @@ Create their Monkecoin wallet. In the wallet users should be able to buy, sell a
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
-
+- Solution URL: https://github.com/Aryan2610/Monkecoin
 
 
 ### Built with
