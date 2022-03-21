@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function disableSubmit() {
+        document.getElementById('submit').disabled = true;
+      }
+
+      function activateButton(element) {
+        if (element.checked) {
+          document.getElementById('submit').disabled = false;
+        } else {
+          document.getElementById('submit').disabled = true;
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Monkecoin</title>
+  </head>
+  <body>
+    <div class="box">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <p class="welcome">Confirm details</p>
+      <form
+        class="login"
+        action="login.php"
+        method="post"
+        onload="disableSubmit()"
+      >
+        <input
+          type="text"
+          placeholder="Confirm Username"
+          class="login__input login__input--user"
+          name="user"
+          required
+        />
+
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          maxlength="4"
+          class="login__input login__input--pin"
+          name="pass"
+          required
+        />
+        <input
+          type="checkbox"
+          name="terms"
+          class="login__input--check"
+          onchange="activateButton(this)"
+        />
+        <label for="terms" class="login__input--check">
+          &shy; I agree to the
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            >terms and conditions</a
+          ></label
+        >
+        <button type="submit" id="submit" class="login__btn__form" disabled>
+          Login page &rarr;
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
