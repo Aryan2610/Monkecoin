@@ -1,0 +1,12 @@
+1. Create a database named crypto
+
+CREATE DATABASE crypto;
+
+2. Create a table named customers
+
+CREATE TABLE customers(
+    name varchar(50),
+    ac int(10),
+    user varchar(50),
+    pass int(4)
+);
