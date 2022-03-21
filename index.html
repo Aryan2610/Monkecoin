@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/site.css" />
+    <title>Monkecoin</title>
+
+    <script defer src="./js/site.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="logo.png"
+          alt="logo"
+          class="nav__logo"
+          id="logo"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Create Wallet</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Take a step into the
+          <span class="highlight">crypto world</span>
+        </h1>
+        <h4>Monkecoin is an open source peer-to-peer digital currency.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img src="img/hero.png" class="header__img" alt="Items" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          We have a decentralized, and secure environment that is free from any
+          third-party interference when it comes to transactions.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.png"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital</h5>
+          <p>
+            Monkecoin is a technology that's home to digital money, global
+            payments, and applications. The community has built a booming
+            digital economy, bold new ways for creators to earn online, and so
+            much more. It's open to everyone associated with us wherever you are
+            in the world - all you need is the internet.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Today, millions of people can't open bank accounts, others have
+            their payments blocked. Monkecoin's decentralized finance (DeFi)
+            system never sleeps or discriminates. With just an internet
+            connection, you can send, receive, borrow, earn interest, and even
+            stream funds anywhere in the world.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.png"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/endless-lazy.jpg"
+          data-src="img/endless.png"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-globe"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Endless possibilities</h5>
+          <p>
+            Monkecoin isn't just for digital money. Anything you can own can be
+            represented, traded and put to use as non-fungible tokens (NFTs).
+            You can tokenise your art and get royalties automatically every time
+            it's re-sold. Or use a token for something you own to take out a
+            loan. The possibilities are growing all the time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Buying
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Selling
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfer coins to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Transferring coins have never been easier. Automatic creation of a
+            public address and secure transfer is all taken care of by us.
+            Transfer requires both the parties to have a wallet account.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy Monkecoins instantly with your wallet.
+          </h5>
+          <p>
+            With Monkecoin's own wallet facility you do not need a third party
+            wallet. Buy Monkecoins from the official and secure source.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Need to sell your coins? No problem we got you covered.
+          </h5>
+          <p>
+            Sell your Monkecoins with respect to the market exchange rate and
+            get the money transferred to your bank account instantly!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of customers are already making their lives simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              I have been investing in Monkecoin since the past year and
+              Monkecoin's own wallet has made trading easier. I can buy and sell
+              Monkecoins whenever and wherever I want.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/male.jpg" alt="person" class="testimonial__photo" />
+              <h6 class="testimonial__name">Osama Ahmed</h6>
+              <p class="testimonial__location">Riyadh, Saudi Arabia</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">The first steps towards future.</h5>
+            <blockquote class="testimonial__text">
+              The technology they use makes it user-friendly and easy to use.
+              Monkecoins can easily be bought and every adjustment is done by
+              the software itself. This platform also provides its users with a
+              guide to assist them so that they don't have to worry about it.
+              Wide community There are abundant users worldwide who have opted
+              for Monkecoin. The community is quite wide-ranging who use
+              Monkecoin for trading and tipping.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/male.jpg" alt="person" class="testimonial__photo" />
+              <h6 class="testimonial__name">Hanif Barbhuiya</h6>
+              <p class="testimonial__location">Tokyo, Japan</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">User-friendly</h5>
+            <blockquote class="testimonial__text">
+              Many users have given legitimate testimonials related to their
+              experience with Monkecoin and they are quite pleased by this
+              automatic program. No fees So, there are no hidden charges and it
+              is completely free. The user is only required to fill out the
+              information and he's done.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/male.jpg" alt="person" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aryan Agarwal</h6>
+              <p class="testimonial__location">Oslo, Norway</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Enjoy hassle free experience! Enter the details required and you can
+          enter the world of Monkecoin!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Get Started!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="icon.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Create your Monkecoin wallet <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form" method="post" action="index.php">
+        <label>Full Name</label>
+        <input type="text" name="name" required />
+        <label>A/c no</label>
+        <input type="tel" maxlength="10" max="10" name="acc" required />
+        <label>Create User ID</label>
+        <input type="text" name="user" required />
+        <label> Create PIN</label>
+        <input type="password" maxlength="4" max="4" name="pass" required />
+        <button type="submit" class="btn" name="submit">
+          Next step &rarr;
+        </button>
+        <h2>Already have an account?<a href="login.html">Login</a></h2>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
