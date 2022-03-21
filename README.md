@@ -20,7 +20,7 @@ Users should be able to:
 Create their Monkecoin wallet. In the wallet users should be able to buy, sell and transfer Monkecoins.
 
 ### Screenshots
-![demo](Monkecoin 1.jpeg)
+![Home Page](./demo/Monkecoin 1.jpeg "Home Page")
 
 ### Links
 
