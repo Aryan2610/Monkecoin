@@ -99,7 +99,6 @@ p {
   color: #666;
 }
 
-/* This is BAD for accessibility! Don't do in the real world! */
 button:focus {
   outline: none;
 }
@@ -672,4 +671,112 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 750px) {
+  .nav__links {
+    display: none;
+  }
+  .nav.sticky {
+    display: none;
+  }
+  .nav__logo {
+    margin-top: 6rem;
+    margin-left: 2.5rem;
+    height: 15rem;
+  }
+  h1 {
+    font-size: 2rem;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .header__img {
+    display: none;
+  }
+  h4 {
+    font-size: 1.8rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .header__title {
+    padding: 3rem 2rem;
+    grid-template-columns: 1fr;
+    margin: 4rem 0;
+    padding: 3rem;
+  }
+  .section {
+    padding: 5rem 2rem;
+  }
+  .section__header {
+    font-size: 1.6rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .features__img,
+  .features__icon,
+  .operations__icon {
+    display: none;
+  }
+  .features__header {
+    font-size: 1.4rem;
+    margin-left: -10rem;
+  }
+  .features__feature {
+    display: contents;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  p {
+    width: 20rem;
+    margin-left: -2rem;
+  }
+  .operations__tab {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .operations__header {
+    font-size: 1.2rem;
+    margin-left: -8rem;
+  }
+  .operations__content p {
+    font-size: 1.2rem;
+    margin-left: -3rem;
+  }
+  .testimonial__header,
+  .testimonial::before,
+  .testimonial__text,
+  .testimonial__name,
+  .testimonial__location,
+  .slider__btn {
+    font-size: 1.4rem;
+  }
+  .testimonial__photo {
+    margin-left: -2rem;
+    width: 4.5rem;
+  }
+  .footer__nav {
+    display: block;
+  }
+  .modal__form {
+    display: block;
+  }
+  .modal__header {
+    font-size: 1.4rem;
+  }
+  .btn--close-modal {
+    top: 2rem;
+    right: 3rem;
+  }
 }
