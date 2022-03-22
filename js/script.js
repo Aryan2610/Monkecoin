@@ -1,10 +1,8 @@
-/// Code change nahi karna bina puche -- Aryan
 let name1 = document.querySelector('.name').textContent;
 let user = document.querySelector('.user').textContent;
 let pass = document.querySelector('.pass').textContent;
 let acc1 = document.querySelector('.ac').textContent;
 let acc2 = parseInt(acc1);
-
 let pass1 = parseInt(pass);
 let update = () => {
   return +(Math.random() * (9 - 1 + 1) + 1).toFixed(2);
