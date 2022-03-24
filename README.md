@@ -40,4 +40,4 @@ Create their Monkecoin wallet. In the wallet users should be able to buy, sell a
 
 ## Author
 Aryan Agarwal
-- Learned from Udemy course of Jonas Schmedtmann.
+
