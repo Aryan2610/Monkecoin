@@ -50,7 +50,7 @@ const account2 = {
   currency: 'ILS',
   locale: 'en-IN',
   username: 'ob',
-  account: 1,
+  account: 0011223344,
 };
 
 const accounts = [account1, account2];
